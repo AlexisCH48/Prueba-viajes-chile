@@ -1,11 +1,29 @@
 body {
     background-color: black;
-    text-decoration: white;
+    font-family: 'Inter', sans-serif;
 }
 
 #img-nav {
     width: 32px;
     height: 32px;
+}
+
+.navbar {
+    background-color: #17a3b8;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+hr{
+    height: 2px;
+    background-color: #17a3b8;
+    border: #17a3b8;
+}
+
+footer, .card, .icono{
+    background-color: #17a3b8;
 }
 
 

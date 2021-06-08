@@ -7,11 +7,14 @@
     <meta name="author" content="Aleixs Concha Herrera">
     <meta name="description" content="Viajes Chile">
     <meta name="keywords" content="Viajes, Vacaciones, Chile, Panoramas">
-    <!----boostrap-------------------------->
+    <!----boostrap----------------------------->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <!-----font-awesome---------------------->
+    <!-----font-awesome------------------------>
     <script src="https://kit.fontawesome.com/d5c82da8d6.js" crossorigin="anonymous"></script>
-    <!----favicon----------------------------->
+    <!--google-fonts--------------------------->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap" rel="stylesheet">
+    <!----favicon------------------------------>
     <link rel="icon" type="image/png" href="assets/img/viajes.svg">
     <!----CSS---------------------------------->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -20,39 +23,39 @@
 <body>
     <header>
         <!---navbar------------------------------------------------>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top text-white">
-            <a class="navbar-brand pl-5" href="#"><img id="img-nav" src="assets/img/viajes.svg" alt="viajes"> Viajes Chile</a>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top text-white">
+            <a class="navbar-brand " href="#"><img id="img-nav" src="assets/img/viajes.svg" alt="viajes"> Viajes Chile</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto pr-5">
-                    <li class="nav-item active">
-                    <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                <ul class="navbar-nav text-right ml-auto">
+                    <li class="nav-item text-center active">
+                        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Quienes Somos</a>
+                    <li class="nav-item text-center">
+                        <a class="nav-link" href="#">Quienes Somos</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item text-center">
                         <a class="nav-link" href="#">Destacados</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item text-center">
                         <a class="nav-link" href="#">Contacto</a>
                     </li>
                 </ul>
             </div>
         </nav>
         <!--carusel---------------------------------------------->
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide mt-2 pt-5" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="carousel1.jpg">
+                    <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="carousel1.jpg">
                 </div>
                 <div class="carousel-item">
-                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="carousel2.jpg">
+                    <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="carousel2.jpg">
                 </div>
                 <div class="carousel-item">
-                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="carousel3.jpg">
+                    <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="carousel3.jpg">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -64,64 +67,126 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-
-
     </header>
 
     <main class="container">
-        <!--contenido-quienes-somos-------------------------------------------->
+        <!--contenido-quienes-somos------#17a3b8-------------------------------------->
         <section class="container">
-            <div class=" text-center text-white">
+            <div class=" text-center text-white d-none d-md-block mt-5 py-3">
                 <h2>¿Quiénes Somos?</h2>
-                <div class="row">
-
+                <hr>
+                <div class="row text-center">
+                    <div class="col-md-4 col-lg-4 col-xl-4">
+                        <!---texto-1-------------------------------->
+                        <div class="icono m-1">
+                            <i class="fas fa-plane fa-2x"></i>
+                        </div>
+                        <p class="text-justify m-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi impedit magni, nesciunt pariatur reiciendis id sapiente perferendis autem, quos exercitationem, a sunt fuga consectetur. Magni repudiandae doloremque corrupti tempora rem? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi impedit magni, nesciunt pariatur reiciendis id sapiente perferendis autem, quos exercitationem, a sunt fuga consectetur. Magni repudiandae doloremque corrupti tempora rem?</p>
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-xl-4">
+                        <!---texto-2-------------------------------->
+                        <p class="text-justify m-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi impedit magni, nesciunt pariatur reiciendis id sapiente perferendis autem, quos exercitationem, a sunt fuga consectetur. Magni repudiandae doloremque corrupti tempora rem? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi impedit magni, nesciunt pariatur reiciendis id sapiente perferendis autem, quos exercitationem, a sunt fuga consectetur. Magni repudiandae doloremque corrupti tempora rem?</p>
+                        <div class="icono m-1">
+                            <i class="fas fa-mountain fa-2x"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-xl-4">
+                        <!---texto-3-------------------------------->
+                        <div class="icono m-1">
+                            <i class="fas fa-route fa-2x"></i>
+                        </div>
+                        <p class="text-justify m-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi impedit magni, nesciunt pariatur reiciendis id sapiente perferendis autem, quos exercitationem, a sunt fuga consectetur. Magni repudiandae doloremque corrupti tempora rem? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi impedit magni, nesciunt pariatur reiciendis id sapiente perferendis autem, quos exercitationem, a sunt fuga consectetur. Magni repudiandae doloremque corrupti tempora rem?</p>
+                    </div>
                 </div>
             </div>
 
         </section>
 
-
-
-        <!--cartas-destacados------------------------------------------------->
+        <!--tarjetas-destacados------------------------------------------------->
         <section class="container">
-            <div class=" text-center text-white">
+            <div class=" text-center text-white mt-3 py-4">
                 <h2>Destacados</h2>
+                <hr>
                 <div class="row">
-
+                    <!---tarjeta1--------------------------------------------------->    
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 py-3">
+                        <div class="card">
+                            <img  src="assets/img/card1.jpg" class="card-img-top" alt="card1.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!---tarjeta2--------------------------------------------------->  
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 py-3">
+                        <div class="card">
+                            <img src="assets/img/card2.jpg" class="card-img-top" alt="card2.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!---tarjeta3--------------------------------------------------->  
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 py-3">
+                        <div class="card">
+                            <img src="assets/img/card3.jpg" class="card-img-top" alt="card3.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!---tarjeta4--------------------------------------------------->  
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 py-3">
+                        <div class="card">
+                            <img src="assets/img/card4.jpg" class="card-img-top" alt="card4.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-
-
-
+            </div>    
         </section>
-        
-
-
 
         <!--Formulario-contacto----------------------------------->
         <section class="container">
-            <div class=" text-center text-white">
+            <div class=" text-center text-white mt-3 py-4">
                 <h2>Contacto</h2>
-              
+                <hr>
             </div>
-
-
+            <div class="typeform-widget mb-5" data-url="https://form.typeform.com/to/dRXIx6fl?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
         </section>
-
-
-
-
-
-
-
-
-
-
-
     </main>
-
-
-
+    <!--pie-de-pagina-----links-paginas-externas----------------------->
+    <footer class="text-white py-2 px-5">
+        <div class="row justify-content-between">
+            <div class="col-12 col-md-6">
+                <h3 class="text-center pt-2">VIAJES CHILE</h3>
+            </div>
+            <div class="col-12 col-md-6 text-center pr-3">
+                <!-----link-github------------>
+                <div class="d-inline px-1">
+                    <i class="fab fa-github-square fa-3x"></i>
+                </div>
+                <!-----link-linkedin---------->
+                <div class="d-inline px-1">
+                    <i class="fab fa-linkedin fa-3x"></i>
+                </div>
+                <!--link-twitter-------------->
+                <div class="d-inline px-1">
+                    <i class="fab fa-twitter-square fa-3x"></i>
+                </div>
+                <!--link-facebook------------->
+                <div class="d-inline px-1"> 
+                    <i class="fab fa-facebook-square fa-3x"></i>
+                </div>    
+            </div>
+          </div>
+    </footer>
 
     <!----jQuery--3.6------------------------------->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
