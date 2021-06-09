@@ -21,7 +21,7 @@
     <title>Viajes Chile</title>
 </head>
 <body>
-    <header>
+    <header id="inicio">
         <!---navbar------------------------------------------------>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top text-white">
             <a class="navbar-brand " href="#"><img id="img-nav" src="assets/img/viajes.svg" alt="viajes"> Viajes Chile</a>
@@ -31,21 +31,21 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav text-right ml-auto">
                     <li class="nav-item text-center active">
-                        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#inicio">Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item text-center">
-                        <a class="nav-link" href="#">Quienes Somos</a>
+                        <a class="nav-link" href="#quienes-somos">Quienes Somos</a>
                     </li>
                     <li class="nav-item text-center">
-                        <a class="nav-link" href="#">Destacados</a>
+                        <a class="nav-link" href="#destacados">Destacados</a>
                     </li>
                     <li class="nav-item text-center">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <!--carusel---------------------------------------------->
+        <!--carrusel---------------------------------------------->
         <div id="carouselExampleControls" class="carousel slide mt-2 pt-5" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -70,8 +70,8 @@
     </header>
 
     <main class="container">
-        <!--contenido-quienes-somos------#17a3b8-------------------------------------->
-        <section class="container">
+        <!--contenido-quienes-somos--------------------------------------->
+        <section id="quienes-somos" class="container">
             <div class=" text-center text-white d-none d-md-block mt-5 py-3">
                 <h2>¿Quiénes Somos?</h2>
                 <hr>
@@ -99,11 +99,10 @@
                     </div>
                 </div>
             </div>
-
         </section>
 
         <!--tarjetas-destacados------------------------------------------------->
-        <section class="container">
+        <section id="destacados" class="container">
             <div class=" text-center text-white mt-3 py-4">
                 <h2>Destacados</h2>
                 <hr>
@@ -112,9 +111,9 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 py-3">
                         <div class="card">
                             <img  src="assets/img/card1.jpg" class="card-img-top" alt="card1.jpg">
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <div class="card-body text-justify">
+                                <h5 class="card-title p-1">Lorem ipsum, dolor sit amet</h5>
+                                <p class="card-text p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ad nihil repellat eaque voluptas ex neque quo dolore ea cumque nam vel sed, nesciunt</p>
                             </div>
                         </div>
                     </div>
@@ -122,9 +121,9 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 py-3">
                         <div class="card">
                             <img src="assets/img/card2.jpg" class="card-img-top" alt="card2.jpg">
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <div class="card-body text-justify">
+                                <h5 class="card-title p-1">consectetur adipisicing elit</h5>
+                                <p class="card-text p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ad nihil repellat eaque voluptas ex neque quo dolore ea cumque nam vel sed, nesciunt</p>
                             </div>
                         </div>
                     </div>
@@ -132,9 +131,9 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 py-3">
                         <div class="card">
                             <img src="assets/img/card3.jpg" class="card-img-top" alt="card3.jpg">
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <div class="card-body text-justify">
+                                <h5 class="card-title p-1">Corporis quaerat magni ratione quam </h5>
+                                <p class="card-text p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ad nihil repellat eaque voluptas ex neque quo dolore ea cumque nam vel</p>
                             </div>
                         </div>
                     </div>
@@ -142,9 +141,9 @@
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 py-3">
                         <div class="card">
                             <img src="assets/img/card4.jpg" class="card-img-top" alt="card4.jpg">
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <div class="card-body text-justify">
+                                <h5 class="card-title p-1">uidem odit laudantium a sunt</h5>
+                                <p class="card-text p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ad nihil repellat eaque voluptas ex neque quo dolore ea cumque nam vel sed, nesciunt</p>
                             </div>
                         </div>
                     </div>
@@ -152,12 +151,13 @@
             </div>    
         </section>
 
-        <!--Formulario-contacto----------------------------------->
-        <section class="container">
+        <!--Formulario-contacto--------------------------------------->
+        <section id="contacto" class="container">
             <div class=" text-center text-white mt-3 py-4">
                 <h2>Contacto</h2>
                 <hr>
             </div>
+            <!--typeform---------------------------------------------->
             <div class="typeform-widget mb-5" data-url="https://form.typeform.com/to/dRXIx6fl?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
         </section>
     </main>
@@ -170,19 +170,19 @@
             <div class="col-12 col-md-6 text-center pr-3">
                 <!-----link-github------------>
                 <div class="d-inline px-1">
-                    <i class="fab fa-github-square fa-3x"></i>
+                    <a href="https://github.com/"><i class="fab fa-github-square fa-3x"></i></a>
                 </div>
                 <!-----link-linkedin---------->
                 <div class="d-inline px-1">
-                    <i class="fab fa-linkedin fa-3x"></i>
+                    <a href="https://cl.linkedin.com/"><i class="fab fa-linkedin fa-3x"></i></a>
                 </div>
                 <!--link-twitter-------------->
                 <div class="d-inline px-1">
-                    <i class="fab fa-twitter-square fa-3x"></i>
+                    <a href="https://twitter.com/"><i class="fab fa-twitter-square fa-3x"></i></a>
                 </div>
                 <!--link-facebook------------->
                 <div class="d-inline px-1"> 
-                    <i class="fab fa-facebook-square fa-3x"></i>
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-3x"></i></a>
                 </div>    
             </div>
           </div>

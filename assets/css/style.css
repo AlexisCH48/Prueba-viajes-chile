@@ -26,5 +26,13 @@ footer, .card, .icono{
     background-color: #17a3b8;
 }
 
+.card-img-top {
+    height: 14.688rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
 
 
