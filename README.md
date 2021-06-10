@@ -1,5 +1,5 @@
 # Prueba-viajes-chile
-Se usaron las siguiente versiones para el desarrllo
+Se usaron las siguiente versiones para el desarrollo
 
 Boostrap 4.6
 https://getbootstrap.com/docs/4.6/getting-started/introduction/
